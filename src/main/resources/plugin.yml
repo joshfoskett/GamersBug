@@ -1,0 +1,52 @@
+name: GamersBug
+author: RastaLulz
+main: net.gamersbug.main.GamersBug
+version: ${project.version}
+depend: [TagAPI, BarAPI]
+
+commands:
+   join:
+      description: Join a team!
+      permission: gamersbug.join
+      usage: Syntax error! Simply type /join to get in the game.
+   team:
+      description: What team are you on?
+      permission: gamersbug.team
+      usage: Syntax error! Simply type /team to get in the game.
+   leave:
+      description: Leave your team!
+      permission: gamersbug.leave
+      usage: Syntax error! Simply type /leave to get in the game.
+   map:
+      description: List map information.
+      permission: gamersbug.map
+      usage: Syntax error! Simply type /map to get map information.
+   next:
+      description: Testing random things.
+      permission: gamersbug.next
+      usage: Syntax error! Simply type /next to get in the game.
+   register:
+      description: Register on GamersBug website.
+      permission: gamersbug.register
+      usage: Syntax error! Simply type /register <email> <password> to get in the game.
+   test:
+      description: Testing random things.
+      permission: gamersbug.test
+      usage: Syntax error! Simply type /test to get in the game.
+     
+permissions:
+   gamersbug.join:
+      description: Allows you to join the game.
+      default: true
+   gamersbug.leave:
+      description: Allows you to leave the game.
+      default: true
+   gamersbug.map:
+      description: Allows you to see general map information.
+      default: true
+   gamersbug.register:
+      description: Allows you to register on GamersBug website.
+      default: true
+   gamersbug.team:
+      description: Allows you to see which team you are on.
+      default: true
